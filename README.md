@@ -34,7 +34,8 @@ of data that will be used to train your data, and the remaining data will be use
   
 6. The results of your model will then be shown in the top right. Depending on what algorithm was selected, this will  
 spit out different information. More than likely this will be in the from of a confusion matrix (How to read: https://www.dataschool.io/simple-guide-to-confusion-matrix-terminology/ )  
-
+![results_display](https://user-images.githubusercontent.com/52090139/71199745-96c83a80-2264-11ea-99a6-9f9218851cb6.JPG)
   
-7. Click the "Select Prediction Data" button to pick another file with similar data in it to back test your model against.  
-This will then pop up a dialog box as shown below and all of you predictions will be added into a new column in that file.
+7. Click the "Select Prediction Data" button to pick another file with similar data in it to back test your model against.
+This will then pop up a dialog box as shown below and all of you predictions will be added into a new column in that file.  
+![predict_saved](https://user-images.githubusercontent.com/52090139/71199755-9f207580-2264-11ea-8e3c-e6598153fa9a.JPG)

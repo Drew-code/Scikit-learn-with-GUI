@@ -23,7 +23,7 @@ in future cases with similar data. This GUI only supports the use of the Train/T
 ![train_diag_box](https://user-images.githubusercontent.com/52090139/71199357-c88cd180-2263-11ea-86fa-0fbd4ea1045d.JPG)
   
 3. Select which item you would like to predict for as shown below  
-
+![predict_diag_box](https://user-images.githubusercontent.com/52090139/71199412-e823fa00-2263-11ea-876a-0e2e43794844.JPG)
   
 4. Click the drop down arrow as seen in the picutre below to select which model you would like to use to make a prediction  
 

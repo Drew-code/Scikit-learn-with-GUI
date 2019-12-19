@@ -30,12 +30,13 @@ in future cases with similar data. This GUI only supports the use of the Train/T
   
 5. Drag the slider to split up your data into training group and testing group. The number pointed to below is the percentage
 of data that will be used to train your data, and the remaining data will be used to test your prediction  
-![split_size](https://user-images.githubusercontent.com/52090139/71199666-726c5e00-2264-11ea-9212-869762a51361.JPG)
-  
-6. The results of your model will then be shown in the top right. Depending on what algorithm was selected, this will  
+![split_size](https://user-images.githubusercontent.com/52090139/71199666-726c5e00-2264-11ea-9212-869762a51361.JPG)  
+6. Click the "Run" button at the bottom of the software  
+
+7. The results of your model will then be shown in the top right. Depending on what algorithm was selected, this will  
 spit out different information. More than likely this will be in the from of a confusion matrix (How to read: https://www.dataschool.io/simple-guide-to-confusion-matrix-terminology/ )  
 ![results_display](https://user-images.githubusercontent.com/52090139/71199745-96c83a80-2264-11ea-99a6-9f9218851cb6.JPG)
   
-7. Click the "Select Prediction Data" button to pick another file with similar data in it to back test your model against.
+8. Click the "Select Prediction Data" button to pick another file with similar data in it to back test your model against.
 This will then pop up a dialog box as shown below and all of you predictions will be added into a new column in that file.  
 ![predict_saved](https://user-images.githubusercontent.com/52090139/71199755-9f207580-2264-11ea-8e3c-e6598153fa9a.JPG)

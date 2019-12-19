@@ -15,9 +15,8 @@ in future cases with similar data. This GUI only supports the use of the Train/T
 - WxPython module for Python 3.6 (documentation: https://wxpython.org/ )  
 - Pandas module for Python 3.6 (documentaion: https://pandas.pydata.org/ )  
 
-# Walkthrough  
-
-## Leadning in Training Data  
-Start by clicking the "Load Train Data" button circled in the picture below.  
+# Walkthrough   
+1. Start by clicking the "Load Train Data" button circled in the picture below.  
+![train_data](https://user-images.githubusercontent.com/52090139/71197494-bad54d00-225f-11ea-8d64-015bc5cd025c.JPG)  
 
 

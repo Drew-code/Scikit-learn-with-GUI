@@ -28,7 +28,7 @@ in future cases with similar data. This GUI only supports the use of the Train/T
 4. Click the drop down arrow as seen in the picutre below to select which model you would like to use to make a prediction  
 ![choosing model](https://user-images.githubusercontent.com/52090139/71199480-07bb2280-2264-11ea-823a-366fb333470c.JPG)
   
-5. Drag the slider to split up your data into training group and testing group. The number pointed to below is the percentage  
+5. Drag the slider to split up your data into training group and testing group. The number pointed to below is the percentage
 of data that will be used to train your data, and the remaining data will be used to test your prediction  
 ![split_size](https://user-images.githubusercontent.com/52090139/71199666-726c5e00-2264-11ea-9212-869762a51361.JPG)
   

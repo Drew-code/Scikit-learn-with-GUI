@@ -9,34 +9,42 @@ works. This has applications for situations where pervious data is collected and
 in future cases with similar data. This GUI only supports the use of the Train/Test split method of supervised learning, but  contains 5 algorithms for different use cases.
 
 
-## Technologies Used  
+## Prerequisites  
 - Python 3.6  
 - Scikit learn module for Python 3.6 (documentation: https://scikit-learn.org/stable/ )  
 - WxPython module for Python 3.6 (documentation: https://wxpython.org/ )  
-- Pandas module for Python 3.6 (documentaion: https://pandas.pydata.org/ )  
+- Pandas module for Python 3.6 (documentaion: https://pandas.pydata.org/ ) 
+  
+## Important Notes  
+- All files loaded into this software must be .CSV files as of now. (12/19/19)  
 
 # Walkthrough   
 1. Start by clicking the "Load Train Data" button circled in the picture below.  
 ![train_data](https://user-images.githubusercontent.com/52090139/71197494-bad54d00-225f-11ea-8d64-015bc5cd025c.JPG)  
     
-2. Select ALL independent variables you would like to take into account when making the prediction  
+2. Select ALL independent variables you would like to take into account when making the prediction.  
 ![train_diag_box](https://user-images.githubusercontent.com/52090139/71199357-c88cd180-2263-11ea-86fa-0fbd4ea1045d.JPG)
   
-3. Select which item you would like to predict for as shown below  
+3. Select which item you would like to predict for as shown below.  
 ![predict_diag_box](https://user-images.githubusercontent.com/52090139/71199412-e823fa00-2263-11ea-876a-0e2e43794844.JPG)
   
-4. Click the drop down arrow as seen in the picutre below to select which model you would like to use to make a prediction  
+4. Click the drop down arrow as seen in the picutre below to select which model you would like to use to make a prediction.  
 ![choosing model](https://user-images.githubusercontent.com/52090139/71199480-07bb2280-2264-11ea-823a-366fb333470c.JPG)
   
 5. Drag the slider to split up your data into training group and testing group. The number pointed to below is the percentage
-of data that will be used to train your data, and the remaining data will be used to test your prediction  
+of data that will be used to train your data, and the remaining data will be used to test your prediction.  
 ![split_size](https://user-images.githubusercontent.com/52090139/71199666-726c5e00-2264-11ea-9212-869762a51361.JPG)  
-6. Click the "Run" button at the bottom of the software  
+6. Click the "Run" button at the bottom of the software.  
 
 7. The results of your model will then be shown in the top right. Depending on what algorithm was selected, this will  
-spit out different information. More than likely this will be in the from of a confusion matrix (How to read: https://www.dataschool.io/simple-guide-to-confusion-matrix-terminology/ )  
+spit out different information. More than likely this will be in the from of a confusion matrix. (How to read: https://www.dataschool.io/simple-guide-to-confusion-matrix-terminology/ )  
 ![results_display](https://user-images.githubusercontent.com/52090139/71199745-96c83a80-2264-11ea-99a6-9f9218851cb6.JPG)
   
 8. Click the "Select Prediction Data" button to pick another file with similar data in it to back test your model against.
 This will then pop up a dialog box as shown below and all of you predictions will be added into a new column in that file.  
-![predict_saved](https://user-images.githubusercontent.com/52090139/71199755-9f207580-2264-11ea-8e3c-e6598153fa9a.JPG)
+![predict_saved](https://user-images.githubusercontent.com/52090139/71199755-9f207580-2264-11ea-8e3c-e6598153fa9a.JPG)  
+
+## Future Updates  
+- Add functionality to accept more file types (i.e .json, .xlsx, .xlsm).  
+- Switch to a more asthetically pleaseing GUI module.  
+- Add functonality with more methods in the Scikit-Learn module along with more algorithms.

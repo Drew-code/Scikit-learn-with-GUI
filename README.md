@@ -30,7 +30,7 @@ in future cases with similar data. This GUI only supports the use of the Train/T
   
 5. Drag the slider to split up your data into training group and testing group. The number pointed to below is the percentage  
 of data that will be used to train your data, and the remaining data will be used to test your prediction  
-
+![split_size](https://user-images.githubusercontent.com/52090139/71199666-726c5e00-2264-11ea-9212-869762a51361.JPG)
   
 6. The results of your model will then be shown in the top right. Depending on what algorithm was selected, this will  
 spit out different information. More than likely this will be in the from of a confusion matrix (How to read: https://www.dataschool.io/simple-guide-to-confusion-matrix-terminology/ )  

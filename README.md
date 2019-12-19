@@ -20,7 +20,7 @@ in future cases with similar data. This GUI only supports the use of the Train/T
 ![train_data](https://user-images.githubusercontent.com/52090139/71197494-bad54d00-225f-11ea-8d64-015bc5cd025c.JPG)  
     
 2. Select ALL independent variables you would like to take into account when making the prediction  
-
+![train_diag_box](https://user-images.githubusercontent.com/52090139/71199357-c88cd180-2263-11ea-86fa-0fbd4ea1045d.JPG)
   
 3. Select which item you would like to predict for as shown below  
 
